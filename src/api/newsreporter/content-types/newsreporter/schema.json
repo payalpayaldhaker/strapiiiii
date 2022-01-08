@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsreporters",
+  "info": {
+    "singularName": "newsreporter",
+    "pluralName": "newsreporters",
+    "displayName": "newsreporter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "surname": {
+      "type": "string",
+      "required": true
+    },
+    "mobilenumber": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
